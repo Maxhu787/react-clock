@@ -1,7 +1,11 @@
 {
   "name": "react-clock",
+  "author": "Hu Kaixiang",
   "version": "0.1.0",
+  "description": "A clock thing made in React.js",
+  "keywords": ["React", "React.js", "react clock", "clock", "html", "css"],
   "homepage": "https://Maxhu787.github.io/react-clock",
+  "license": "APACHE LICENSE, VERSION 2.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
