@@ -3,12 +3,53 @@
 
 #app {
   text-align: center;
-  color: #ffa500;
+  color: #fff;
   font-size: 100px;
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
 
 #time {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-  
+  margin: 20px;
+  user-select: none;
+}
+#time-wrapper {
+  background-color: rgb(44, 42, 37, .8);
+  padding: 10px;
+  border-radius: 18px;
+}
+#upcoming {
+  font-size: 26px;
+  font-family: 'orbitron';
+  border-radius: 18px;
+  background-color: rgb(44, 42, 37, .8);
+}
+#upcoming ul {
+  list-style: none;
+}
+#upcoming li {
+  padding: 10px 0px 18px 0px;
+}
+#upcoming li a {
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+}
+#upcoming li a:visited {
+  color: white;
+}
+#upcoming li a:hover {
+  color: #ffa500;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: rgb(44, 42, 37, .8);
+}
+::-webkit-scrollbar-thumb {
+  background: #ffa500;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ffc200;
 }

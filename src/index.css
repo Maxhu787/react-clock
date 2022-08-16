@@ -3,5 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 body {   
-    background-color: rgb(44, 42, 37);
+    /*background-color: rgb(44, 42, 37);*/
+    background: url(../public/0000001.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }

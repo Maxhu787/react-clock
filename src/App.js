@@ -1,25 +1,6 @@
 import React from 'react';
 import './App.css';
 
-/*
-function getRealTime() {
-  const currentTime = Date.now();
-  console.log(new Date(Math.round(currentTime / 1000) * 1000), currentTime);
-  return (Math.floor(currentTime / 1000) + 1) * 1000 - currentTime;
-}
-
-(async function () {
-  let reduceTime = 0;
-  while (true) {
-    reduceTime = getRealTime();
-    await sleep(reduceTime);
-  }
-})()
-
-function sleep(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
-};*/
-
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -41,8 +22,17 @@ class App extends React.Component {
   render() {
     return (
       <div id="app">
+        <div id="time-wrapper">
+          <p id="time">{this.state.time}</p>
+        </div>
+        <div id="upcoming">
+          <ul>
+            <li><a href="google.com" target="_blank" rel="noopener noreferrer">test</a></li>
+            <li><a href="google.com" target="_blank" rel="noopener noreferrer">test</a></li>
+            <li><a href="google.com" target="_blank" rel="noopener noreferrer">test</a></li>
+          </ul>
+        </div>
         <p>Test React clock</p>
-        <div id="time">{this.state.time}</div>
       </div>
     );
   }
