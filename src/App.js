@@ -27,9 +27,9 @@ class App extends React.Component {
         </div>
         <div id="upcoming">
           <ul>
-            <li><a href="google.com" target="_blank" rel="noopener noreferrer">test</a></li>
-            <li><a href="google.com" target="_blank" rel="noopener noreferrer">test</a></li>
-            <li><a href="google.com" target="_blank" rel="noopener noreferrer">test</a></li>
+            <li><a href="#" target="_blank" rel="noopener noreferrer">test</a></li>
+            <li><a href="#" target="_blank" rel="noopener noreferrer">test</a></li>
+            <li><a href="#" target="_blank" rel="noopener noreferrer">test</a></li>
           </ul>
         </div>
         <p>Test React clock</p>
