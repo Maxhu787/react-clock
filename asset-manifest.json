@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/react-clock/static/css/main.9f4d6bc6.css",
-    "main.js": "/react-clock/static/js/main.f74dc24a.js",
+    "main.css": "/react-clock/static/css/main.72449386.css",
+    "main.js": "/react-clock/static/js/main.25b87d6e.js",
     "static/js/787.c4b2805e.chunk.js": "/react-clock/static/js/787.c4b2805e.chunk.js",
+    "static/media/0000001.jpg": "/react-clock/static/media/0000001.c52beb9950fe37c72237.jpg",
     "index.html": "/react-clock/index.html",
-    "main.9f4d6bc6.css.map": "/react-clock/static/css/main.9f4d6bc6.css.map",
-    "main.f74dc24a.js.map": "/react-clock/static/js/main.f74dc24a.js.map",
+    "main.72449386.css.map": "/react-clock/static/css/main.72449386.css.map",
+    "main.25b87d6e.js.map": "/react-clock/static/js/main.25b87d6e.js.map",
     "787.c4b2805e.chunk.js.map": "/react-clock/static/js/787.c4b2805e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f4d6bc6.css",
-    "static/js/main.f74dc24a.js"
+    "static/css/main.72449386.css",
+    "static/js/main.25b87d6e.js"
   ]
 }
